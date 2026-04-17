@@ -1,12 +1,21 @@
 {
   "name": "quickdev-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of handy CLI developer utilities — password gen, UUID, hash, base64, lorem ipsum, and more",
   "main": "src/index.js",
   "bin": {
     "qdev": "src/index.js"
   },
-  "keywords": ["cli", "developer-tools", "password-generator", "uuid", "hash", "base64", "utilities", "devtools"],
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "password-generator",
+    "uuid",
+    "hash",
+    "base64",
+    "utilities",
+    "devtools"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
