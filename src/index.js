@@ -55,6 +55,9 @@ const commands = {
   b64d() {
     const text = args.join(' ');
     if (!text) return console.error('Usage: qdev b64d <encoded_text>');
+    if (!/^[A-Za-z0-9+/]*={0,2}$/.test(text) || text.length % 4 !== 0) {
+      return console.error(`Error: invalid base64 input: "${text}"`);
+    }
     console.log(Buffer.from(text, 'base64').toString('utf-8'));
   },
 
@@ -94,6 +97,9 @@ const commands = {
   random() {
     const min = parseInt(args[0]) || 1;
     const max = parseInt(args[1]) || 100;
+    if (min >= max) {
+      return console.error(`Error: min (${min}) must be less than max (${max})`);
+    }
     const bytes = crypto.randomBytes(4);
     const num = min + (bytes.readUInt32BE(0) % (max - min + 1));
     console.log(num);
