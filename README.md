@@ -1,6 +1,19 @@
-# quickdev-cli (qdev)
+<div align="center">
 
-A fast, zero-dependency CLI toolkit for everyday developer tasks.
+# quickdev-cli
+
+**A fast, zero-dependency CLI toolkit for everyday developer tasks.**
+
+[![npm version](https://img.shields.io/npm/v/quickdev-cli.svg?style=flat-square&color=3b82f6)](https://www.npmjs.com/package/quickdev-cli)
+[![npm downloads](https://img.shields.io/npm/dw/quickdev-cli.svg?style=flat-square&color=10b981)](https://www.npmjs.com/package/quickdev-cli)
+[![license](https://img.shields.io/npm/l/quickdev-cli.svg?style=flat-square&color=6366f1)](https://github.com/leopechnicki/quickdev-cli/blob/main/LICENSE)
+[![zero dependencies](https://img.shields.io/badge/dependencies-0-22c55e?style=flat-square)](https://www.npmjs.com/package/quickdev-cli)
+
+[npm](https://npmjs.com/package/quickdev-cli) · [GitHub](https://github.com/leopechnicki/quickdev-cli)
+
+</div>
+
+---
 
 ## Install
 
