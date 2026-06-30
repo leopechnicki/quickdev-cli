@@ -1,11 +1,12 @@
 {
   "name": "quickdev-cli",
   "version": "1.0.3",
-  "description": "A collection of handy CLI developer utilities — password gen, UUID, hash, base64, lorem ipsum, and more",
+  "description": "A collection of handy CLI developer utilities â€” password gen, UUID, hash, base64, lorem ipsum, and more",
   "main": "src/index.js",
   "bin": {
     "qdev": "src/index.js"
   },
+  "author": "Leo Pechnicki",
   "keywords": [
     "cli",
     "developer-tools",
